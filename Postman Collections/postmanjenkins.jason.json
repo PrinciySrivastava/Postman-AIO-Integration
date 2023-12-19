@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "List of users",
+			"name": "List of users OPAA-TC-243",
 			"event": [
 				{
 					"listen": "test",
@@ -50,7 +50,7 @@
 			"response": []
 		},
 		{
-			"name": "Single User",
+			"name": "Single User OPAA-TC-244",
 			"event": [
 				{
 					"listen": "test",
@@ -77,7 +77,7 @@
 			"response": []
 		},
 		{
-			"name": "Create new user",
+			"name": "Create new user OPAA-TC-245",
 			"event": [
 				{
 					"listen": "test",
@@ -113,7 +113,7 @@
 			"response": []
 		},
 		{
-			"name": "List of users",
+			"name": "List of users OPAA-TC-243",
 			"event": [
 				{
 					"listen": "test",
@@ -157,7 +157,7 @@
 			"response": []
 		},
 		{
-			"name": "Update single user details",
+			"name": "Update single user details OPAA-TC-246",
 			"event": [
 				{
 					"listen": "test",
@@ -193,7 +193,7 @@
 			"response": []
 		},
 		{
-			"name": "Delete user",
+			"name": "Delete user OPAA-TC-247",
 			"event": [
 				{
 					"listen": "test",
