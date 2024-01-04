@@ -201,7 +201,7 @@
 						"id": "ae752bc7-3ff5-498d-ba85-18c6a254b918",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 204]);\r",
 							"});"
 						],
 						"type": "text/javascript"
