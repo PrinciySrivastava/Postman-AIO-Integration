@@ -29,7 +29,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{test_url}}/api/users?page=2",
+					"raw": "{{test_url}}/api/users?page=2&limit=2",
 					"host": [
 						"{{test_url}}"
 					],
@@ -41,6 +41,11 @@
 						{
 							"key": "page",
 							"value": "2"
+						},
+						{
+							"key": "limit",
+							"value": "2",
+							"type": "text"
 						}
 					]
 				}
