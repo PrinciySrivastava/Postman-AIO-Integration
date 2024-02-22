@@ -29,11 +29,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://reqres.in/api/users?page=2\n",
-					"protocol": "https",
+					"raw": "{{test_url}}/api/users?page=2",
 					"host": [
-						"reqres",
-						"in"
+						"{{test_url}}"
 					],
 					"path": [
 						"api",
@@ -42,7 +40,7 @@
 					"query": [
 						{
 							"key": "page",
-							"value": "2\n"
+							"value": "2"
 						}
 					]
 				}
@@ -72,7 +70,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://reqres.in/api/users/2"
+				"url": "{{test_url}}/api/users/2"
 			},
 			"response": []
 		},
@@ -218,6 +216,12 @@
 				"url": "https://reqres.in/api/users/2"
 			},
 			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "test_url",
+			"value": "https://reqres.in"
 		}
 	]
 }
